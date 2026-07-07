@@ -243,6 +243,9 @@ body{
 }
 
 .about-image{
+    background: var(--color-accent);
+    border-radius: var(--radius-lg);
+    padding: 20px;
     width: 100%;
     max-width: 420px;
     border-radius: 20px;
