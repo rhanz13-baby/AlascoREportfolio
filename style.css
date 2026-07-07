@@ -125,7 +125,7 @@ body{
 
 @keyframes typing{
     0%   { width: 0; }
-    50%  { width: 104%; }
+    50%  { width: 70%; }
     100% { width: 0; }
 }
 
@@ -243,11 +243,13 @@ body{
 }
 
 .about-image{
-    background: var(--color-accent);
-    border-radius: var(--radius-lg);
-    padding: 20px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    display: block;
     position: relative;
-    overflow: hidden;
+    z-index: 1;
+    transform-origin: bottom center;
 }
 
 .about-image img{
